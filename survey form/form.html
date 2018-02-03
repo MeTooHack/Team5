@@ -1,0 +1,152 @@
+<!doctype html>
+    <head>
+      <title>MeTool</title>
+      <link rel="stylesheet" href="form.css">
+      <script>
+        function show(id) {
+          document.getElementById(id).style.display = 'block';
+        }
+      </script>
+    </head>
+
+    <body>
+    <form>
+
+<p><div class="section">Bakgrund</div>
+<div class="question">Kön<br/>
+<input type="radio" name="1_1" value="1"> Kvinna<br/>
+<input type="radio" name="1_1" value="2"> Man<br/>
+<input type="radio" name="1_1" value="3"> Annan könsidentitet/uttryck<br/>
+</div>
+<div class="question">Ålder<br/>
+<input type="radio" name="1_2" value="1"> -35 år<br/>
+<input type="radio" name="1_2" value="2"> 36-50 år<br/>
+<input type="radio" name="1_2" value="3"> 51 år-<br/>
+</div>
+<div class="question">Yrkesgrupp<br/>
+<input type="radio" name="1_3" value="1"> Administration<br/>
+<input type="radio" name="1_3" value="2"> Teknik<br/>
+<input type="radio" name="1_3" value="3"> Kundtjänst<br/>
+</div>
+<div class="question">Antal anställningsår<br/>
+<input type="radio" name="1_4" value="1"> -5 år<br/>
+<input type="radio" name="1_4" value="2"> 5-10 år<br/>
+<input type="radio" name="1_4" value="3"> 11 år–<br/>
+</div>
+
+</p>
+
+<p><div class="section">Trakasserier och kränkningar</div>
+<div class="question">Jag har under det senaste året blivit utsatt för kränkningar, sextrakasserier eller trakasserier på grund av mitt kön<br/>
+<input type="radio" name="2_1" value="1" onchange="show('2_1_1');"> Ja<br/>
+<div id="2_1_1" style="display: none"><div class="question">Kom kränkningen från en<br/>
+<input type="checkbox" name="2_1" value="1"> Arbetskamrat<br/>
+<input type="checkbox" name="2_1" value="2"> Chef<br/>
+<input type="checkbox" name="2_1" value="3"> Kund, patient etc (externt)<br/>
+</div>
+<div class="question">Rörde kränkningen<br/>
+<input type="checkbox" name="2_2" value="1"> Fysisk beröring, tafsande eller liknande<br/>
+<input type="checkbox" name="2_2" value="2"> Verbala kränkningar, könsord, kommentarer etc<br/>
+<input type="checkbox" name="2_2" value="3"> Bemötande<br/>
+<input type="checkbox" name="2_2" value="4"> Blickar, etc<br/>
+<input type="checkbox" name="2_2" value="5"> Utpressning (ge mig sex annars..)<br/>
+<input type="checkbox" name="2_2" value="6"> Härskarteknik tex osynliggörande, förlöjligande<br/>
+</div>
+</div>
+<input type="radio" name="2_1" value="2" onchange="show('2_1_2');"> Nej<br/>
+</div>
+<div class="question">På min arbetsplats har vi rutiner för att ta hand om kränkningar, trakasserier och Sextrakasserier<br/>
+<input type="radio" name="2_2" value="1"> Ja<br/>
+<input type="radio" name="2_2" value="2"> Nej<br/>
+<input type="radio" name="2_2" value="3"> Vet ej<br/>
+</div>
+<div class="question">Min närmaste chef tar ansvar för att skapa en god arbetsmiljö fri från kränkningar och trakasserier<br/>
+<input type="radio" name="2_3" value="1"> Ja<br/>
+<input type="radio" name="2_3" value="2"> Nej<br/>
+</div>
+
+</p>
+
+<p><div class="section">Jargong och kultur internt/externt</div>
+<div class="question">På min arbetsplats förekommer nedvärderande uttryck om kvinnor och/eller män.<br/>
+<input type="radio" name="3_1" value="1"> Ja<br/>
+<input type="radio" name="3_1" value="2"> Nej<br/>
+</div>
+<div class="question">På min arbetsplats är stämningen rå men hjärtlig<br/>
+<input type="radio" name="3_2" value="1"> Ja<br/>
+<input type="radio" name="3_2" value="2"> Nej<br/>
+</div>
+<div class="question">På min arbetsplats har vi ett inkluderande arbetsklimat tillhörande, inneslutande, där jag känner mig värdesatt<br/>
+<input type="radio" name="3_3" value="1"> Ja<br/>
+<input type="radio" name="3_3" value="2"> Nej<br/>
+</div>
+<div class="question">Stämningen på min arbetsplats är god<br/>
+<input type="radio" name="3_4" value="1"> Ja<br/>
+<input type="radio" name="3_4" value="2"> Nej<br/>
+</div>
+
+</p>
+
+<p><div class="section">Bemötande</div>
+<div class="question">På min arbetsplats bemöter vi varandra med respekt<br/>
+<input type="radio" name="4_1" value="1"> Ja<br/>
+<input type="radio" name="4_1" value="2"> Nej<br/>
+</div>
+<div class="question">I mitt arbete externt/mot kund/patient etc bemöts jag med respekt<br/>
+<input type="radio" name="4_2" value="1"> Ja<br/>
+<input type="radio" name="4_2" value="2"> Nej<br/>
+</div>
+<div class="question">På min arbetsplats bemöter min chef mig med respekt<br/>
+<input type="radio" name="4_3" value="1"> Ja<br/>
+<input type="radio" name="4_3" value="2"> Nej<br/>
+</div>
+
+</p>
+
+<p><div class="section">Trygghet på arbetsplatsen</div>
+<div class="question">Jag upplever mig trygg på min arbetsplats<br/>
+<input type="radio" name="5_1" value="1"> Ja<br/>
+<input type="radio" name="5_1" value="2"> Nej<br/>
+</div>
+<div class="question">Jag upplever mig trygg i möte med mina kunder/patienter etc<br/>
+<input type="radio" name="5_2" value="1"> Ja<br/>
+<input type="radio" name="5_2" value="2"> Nej<br/>
+</div>
+<div class="question">Jag upplever mig trygg med min chef<br/>
+<input type="radio" name="5_3" value="1"> Ja<br/>
+<input type="radio" name="5_3" value="2"> Nej<br/>
+</div>
+
+</p>
+
+<p><div class="section">Formella möten på arbetsplatsen</div>
+<div class="question">Kvinnor och män blir lika mycket lyssnade på/tagna på allvar på våra möten<br/>
+<input type="radio" name="6_1" value="1"> Ja<br/>
+<input type="radio" name="6_1" value="2"> Nej<br/>
+</div>
+<div class="question">Kvinnor och män har/ges samma möjligheter att framföra sina åsikter på våra möten<br/>
+<input type="radio" name="6_2" value="1"> Ja<br/>
+<input type="radio" name="6_2" value="2"> Nej<br/>
+</div>
+<div class="question">Kvinnor och män har/ges samma möjligheter till delaktighet på våra möten<br/>
+<input type="radio" name="6_3" value="1"> Ja<br/>
+<input type="radio" name="6_3" value="2"> Nej<br/>
+</div>
+
+</p>
+
+<p><div class="section">Bilder, texter med mera</div>
+<div class="question">På min arbetsplats förekommer inga bilder eller texter som är kränkande mot kvinnor eller män<br/>
+<input type="radio" name="7_1" value="1"> Ja<br/>
+<input type="radio" name="7_1" value="2"> Nej<br/>
+</div>
+<div class="question">Några synpunkter om arbetsmiljön, eventuella trakasserier och kränkningar som du vill berätta om<br/>
+<textarea name="7_2" cols="60" rows="5"></textarea><br/>
+</div>
+
+</p>
+<input type="button" value="Save"><br/>
+</form>
+
+    </body>
+    </html>
