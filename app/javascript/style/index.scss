@@ -1,0 +1,289 @@
+$baseColor: rgba(23, 128, 224, 0.22);
+
+body {
+  margin: 0;
+  background: url('../images/background.svg') no-repeat 0px -150px;
+}
+
+body, h1, button {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 200;
+  font-size: 64px;
+  margin: 30px 0;
+}
+
+h3 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  font-weight: 300;
+  color: #1778dd;
+  text-decoration: none;
+
+  &:hover {
+    color: darken(#1778dd, 10%);
+  }
+}
+
+button, a {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+code {
+  padding: 10px;
+  background-color: #f5f5f5;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.dialog-wrapper {
+  display: flex;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.actions {
+  text-align: center;
+  margin: 20px 0;
+}
+
+button {
+  font-weight: 500;
+  background: linear-gradient(45deg, #102397, #187ADF 60%, #00EAF8);
+  // background: #187adf;
+  color: #fff;
+  padding: 10px;
+  border-radius: 50px;
+  min-width: 200px;
+
+  &:hover {
+    background: darken(#187adf, 10%);
+  }
+}
+
+.dialog {
+  width: 700px;
+  height: 500px;
+  box-shadow: rgba(23, 128, 224, 0.22) 0 15px 45px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+
+  form {
+    margin: 0 50px 50px;
+  }
+
+  label {
+    display: block;
+    margin-top: 20px;
+    font-weight: 200;
+  }
+
+  input {
+    display: block;
+    background-color: #f5f5f5;
+    box-shadow: inset $baseColor 0 1px 3px;
+    border: none;
+    width: 100%;
+    padding: 15px 10px;
+    border-radius: 3px;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .oauth {
+    text-align: center;
+    margin: 30px;
+    flex: 1;
+
+    .btn {
+      display: inline-block;
+      width: 270px;
+      border-radius: 50px;
+      margin-bottom: 10px;
+      padding: 7px;
+      color: #fff;
+      text-align: left;
+
+      svg {
+        margin: 0 5px;
+      }
+    }
+
+    .google {
+      background-color: #DA4B3E;
+
+      &:hover {
+        background-color: darken(#DA4B3E, 10%);
+      }
+    }
+
+    .outlook {
+      background-color: #1676D6;
+
+      &:hover {
+        background-color: darken(#1676D6, 10%);
+      }
+    }
+  }
+
+  hr {
+    margin: 50px 50px 30px;
+    border: 1px solid #eee;
+    border-bottom: none;
+  }
+
+  .success-check {
+    color: $baseColor;
+    flex: 1;
+  }
+
+  .forward {
+    color: #aaa;
+
+    &:hover {
+      color: darken(#aaa, 10%);
+    }
+  }
+}
+
+.fluid-wrapper {
+  display: flex;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.fluid {
+  width: 100%;
+  margin: 100px;
+  box-shadow: $baseColor 0 1px 3px;
+}
+
+.dashboard {
+  display: flex;
+
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    border-right: 1px solid $baseColor;
+
+    .item {
+      flex: 1;
+      padding: 10px;
+    }
+
+    .settings {
+      // height: 50px;
+
+      a {
+        display: block;
+        background-color: #eee;
+        padding: 10px;
+        color: #000;
+
+        &:hover {
+          background-color: darken(#eee, 10%);
+        }
+      }
+    }
+  }
+
+  .content {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 10px;
+
+    .pane {
+      flex: 1;
+      margin: 10px;
+      padding: 10px;
+      box-shadow: #ccc 0 1px 3px;
+      text-align: center;
+
+      .bars {
+        max-width: 300px;
+      }
+
+      .circle {
+        max-height: 150px;
+      }
+    }
+
+    .reports {
+      flex-basis: 100%;
+      margin: 10px;
+      padding: 10px;
+      box-shadow: #ccc 0 1px 3px;
+
+      ul {
+        list-style: none;
+
+      }
+    }
+  }
+}
+
+.survey {
+  display: flex;
+  flex-direction: column;
+
+  .questions {
+    flex: 1;
+    margin: 0 50px;
+  }
+
+  .answers {
+    list-style: none;
+
+    li {
+      background: #f5f5f5;
+      border: 1px solid #ccc;
+      margin: 5px 0;
+      padding: 5px;
+
+      &:hover {
+        background: darken(#f5f5f5, 10%);
+      }
+    }
+  }
+}
+
+.report {
+  margin: 0 50px;
+}

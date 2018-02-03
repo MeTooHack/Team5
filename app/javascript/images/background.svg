@@ -1,0 +1,35 @@
+
+<svg width="1440px" height="1020px" viewBox="0 0 1440 1020" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1683" height="1495" rx="7"></rect>
+        <linearGradient x1="4.14402677%" y1="110.932358%" x2="100%" y2="14.7758152%" id="linearGradient-3">
+            <stop stop-color="#101997" offset="0%"></stop>
+            <stop stop-color="#18DBDF" offset="55.2714445%"></stop>
+            <stop stop-color="#00EAF8" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="2.42890995%" y1="112.652853%" x2="100%" y2="14.7758152%" id="linearGradient-4">
+            <stop stop-color="#102397" offset="0%"></stop>
+            <stop stop-color="#187ADF" offset="55.2714445%"></stop>
+            <stop stop-color="#148CE3" offset="62.3647884%"></stop>
+            <stop stop-color="#0EA8E9" offset="73.5697724%"></stop>
+            <stop stop-color="#00EAF8" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Log-in" transform="translate(0.000000, -4.000000)">
+            <g id="graph" transform="translate(-242.000000, -435.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask"></g>
+                <text id="%" mask="url(#mask-2)" font-family=".SFNSDisplay, .SF NS Display" font-size="24" font-weight="normal" fill="#CDDEEF">
+                    <tspan x="1322" y="457">%</tspan>
+                </text>
+                <path d="M-273.939235,1299.69503 C-171.763728,1236.855 -47.1513015,1215.90833 99.8980428,1236.855 C320.472059,1268.27502 300.618033,1324.29782 422.961604,1333.41729 C545.305175,1342.53676 648.391231,1269.83946 802.25584,1269.83946 C956.120448,1269.83946 992.737723,1396.40828 1259.29473,1434.90487 C1436.9994,1460.56927 1577.13993,1447.73707 1679.71634,1396.40828 L1726,1622.93431 L-273.939235,1681 L-310,1333.41729 L-273.939235,1299.69503 Z" id="Path-8" fill="url(#linearGradient-3)" mask="url(#mask-2)"></path>
+                <path d="M-103.520363,1404.39397 C-18.6661353,1067.55513 121.581298,1000.40131 317.221938,1202.93251 C964.267932,1872.76781 731.156053,1268.98801 1079.05288,1273.72998 C1372.4262,1277.72878 1549.61416,800.472754 1673.37953,869.704641 C1888.7036,990.152631 2010.91042,914.91775 2040,644 L1924.24613,1937 L-168,1937 L-168,1427.38257 L-103.520363,1404.39397 Z" id="Path-9" fill="url(#linearGradient-4)" style="mix-blend-mode: screen;" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>
